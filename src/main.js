@@ -6,8 +6,11 @@ import router from './router'
 import VueLazyLoad from 'vue-lazyload'
 import infiniteScroll from 'vue-infinite-scroll'
 import vuex from 'vuex'
+
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
+
+
 Vue.use(VueAwesomeSwiper)
 // 金额格式化
 import {currency} from '@/util/currency'
